@@ -1,0 +1,166 @@
+html {
+    font-family: "Kiwi Maru", "Times", "Serif";
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.form-box{
+    height: 550px;
+    width: 500px;
+    padding: 20px;
+    margin: 6% auto;
+    background-color:wheat;
+}
+
+.input-field{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid;
+    outline: none;
+}
+
+.name-field{
+    width: 49.5%;
+    border: 1px solid;
+    outline: none;
+}
+
+.check-box{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.span{
+    font-family: sans-serif;
+}
+
+.sumbit-button{
+    width: 80%;
+    padding: 10px 30px;
+    background-color: tomato;
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sumbit-button:hover{
+    background-color: rgb(255, 112, 87);
+}
+
+.password-box{
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    margin: 6% auto;
+    background-color:wheat;
+}
+
+.inputpassword{
+    padding: 10px 30px 30px 30px;
+    text-align: center;
+    margin-top: 100px
+}
+
+.newpassword{
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid;
+    outline: none;
+}
+
+.reset{
+    width: 80%;
+    padding: 10px 30px;
+    background-color: rgb(196, 48, 48);
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.reset:hover{
+    background-color: rgb(209, 77, 77);
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+nav .navi{
+	display: flex;
+}
+
+.header{
+    padding: none;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: none;
+    float: left;
+}
+
+.footer{
+    height: 10%;
+    clear: both;
+}
+#left {
+    margin-top: 4%;
+    background-color: pink;
+    width: 50%;
+    float: left;
+    height: 80%;
+}
+#right {
+    margin-top: 4%;
+    background-color: powderblue;
+    width: 50%;
+    float: left;
+    height: 80%;
+}
+
+.storehome{
+    padding: 0px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	border: 1px solid rgb(255,51,153);
+	background-color: rgb(255,51,153);
+}
+
+.navi li a{
+    height: 30px;
+	margin: 0px;
+	padding: 0px 18px;
+	display: flex;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1.5px;
+}	
+
+.navi li a:hover{
+	color: rgb(255,51,153);
+	background-color: #ffffff;
+}
