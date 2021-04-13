@@ -1,0 +1,366 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, san-serif;
+	background-color:white;
+	min-height: 100vh;
+}
+*{
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* heading h*/
+a h1{
+	font-weight: 800;
+	font-size: 2rem;
+	color: white;
+	margin-left: 105px;
+}
+.ps-heading h2{
+	font-weight: 800;
+	font-size: 1.8rem;
+	padding-left: 18px;
+}
+.ps-heading font{
+	color: rgb(255,51,153);
+}
+.form-heading h1{
+	text-align: center;
+	font-weight: 800;
+	font-size: 1.8rem;
+	padding-left: 18px;
+}
+.fee-heading h1{
+	font-weight: 800;
+	font-size: 1.8rem;
+	padding-left: 18px;
+}
+/* .ps-heading h2{
+	font-weight: 800;
+	font-size: 1.8rem;
+	padding-left: 18px;
+} */
+/* heading nav*/
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	border: 1px solid rgb(255,51,153);
+	background-color: rgb(255,51,153);
+}
+.logo img{
+	height: 80px;
+	display: flex;
+}
+nav .navi{
+	display: flex;
+}
+nav .navi li a{
+	height: 40px;
+	line-height: 43px;
+	margin: 0px;
+	padding: 0px 18px;
+	display: flex;
+	font-size: 1rem;
+	font-weight: 550;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1.5px;
+}
+/* Footer nav*/
+.footer{
+	position: sticky;
+	top: 100%;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+footer .nav-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+	border: 1px solid rgb(255,51,153);
+	background-color: rgb(255,51,153);
+}
+nav .list-footer{
+	display:flex;
+}
+nav .list-footer li a{
+	height: 40px;
+	line-height: 43px;
+	margin: 0px;
+	padding: 0px 18px;
+	display: flex;
+	font-size: 1rem;
+	font-weight: 550;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1.5px;
+}
+.mycart{
+	cursor: pointer;
+	width: 100px;
+	height: 45px;
+	position: fixed;
+	top: 115px;
+	left: 89%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2px;
+	background-color: rgb(255,51,153);
+	border: 1 solid rgb(255,51,153)
+}
+.cartword{
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 1rem;
+}
+/* main*/
+#new-store{
+	margin: 10px;
+}
+.store{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px 0px;
+	width: 100%
+}
+.store-icon{
+	display: flex;
+	width: 250px;
+	height: 350px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 2px;
+	position: relative;
+	margin: 10px 30px;
+}
+.store-icon img{
+	height: 150px;
+	width: 200px;
+	display: flex;
+}
+.store-name{
+	cursor: pointer;
+	margin-top: 18px;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	color: black;
+}
+.enter-store{
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: rgb(255,51,153);
+	margin-top: 15px;
+	display: none;
+	animation: fade 1.5s;
+}
+#new-product{
+	margin: 10px;
+}
+.product{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px 0px;
+	width: 100%
+}
+.product-box{
+	display: flex;
+	width: 250px;
+	height: 350px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 2px;
+	position: relative;
+	margin: 10px 30px;
+}
+.product-box img{
+	height: 180px;
+}
+.product-box p{
+	margin: 10px;
+}
+.pro-name{
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	color: black;
+}
+.pro-store{
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	margin-bottom:10px;
+}
+.addcart{
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: rgb(255,51,153);
+	margin-top: 10px;
+	display: none;
+	animation: fade 1.5s;
+}
+.see-more{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 30px;
+}
+.seebutt{
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: rgb(255,51,153);
+}
+/* hover*/
+.product-box:hover{
+	box-shadow: 6px 6px 30px rgba(0,0,0,0.1), 9px 9px 50px rgba(0,0,0,0.1);
+	background-color: #ffffff;
+}
+.pro-name:hover {
+	color: pink;
+	transition: all ease 0.5s;
+}
+.pro-store:hover {
+	color: pink;
+	transition: all ease 0.5s;
+}
+.product-box:hover .addcart{
+	display: flex;
+}
+.addcart:hover{
+	color: rgb(255,51,153);
+	background-color: #ffffff;
+	border: 2px solid rgb(255,51,153);
+}
+.seebutt:hover{
+	color: rgb(255,51,153);
+	background-color: #ffffff;
+	border: 2px solid rgb(255,51,153);
+}
+.navi li a:hover{
+	color: rgb(255,51,153);
+	background-color: #ffffff;
+}
+.footer li a:hover{
+	color: rgb(255,51,153);
+	background-color: #ffffff;
+}
+.store-icon:hover{
+	box-shadow: 6px 6px 30px rgba(0,0,0,0.1), 9px 9px 50px rgba(0,0,0,0.1);
+	background-color: #ffffff;
+}
+.store-icon:hover .enter-store{
+	display: flex;
+}
+.store-name:hover{
+	color: rgb(255,51,153);
+	transition: all ease 0.5s;
+}
+.enter-store:hover{
+	color: rgb(255,51,153);
+	background-color: #ffffff;
+	border: 2px solid rgb(255,51,153);
+}
+nav input[type="checkbox"] {
+        display: none;
+      }
+nav label {
+        display: none;
+      }
+@media screen and (max-width: 1023px) {
+        nav label {
+          width: 50px;
+          float: right;
+          display: block;
+        }
+
+        nav input[type="checkbox"] ~ ul {
+          display: none;
+        }
+
+        nav input[type="checkbox"]:checked ~ ul {
+          display: block;
+        }
+
+        nav input[type="checkbox"]:checked ~ ul li {
+          width: 95%;
+        }
+      }
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+/* .fee-table{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0px 10px;
+} */
+/* fee table*/
+.table-content{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}	
+table{
+	width: 600px;
+}
+th{
+	text-align: center;
+}
+td{
+	text-align: center;
+}
+table, th, td{
+	border: 1px solid;
+}
+.warning{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 226px;
+}
