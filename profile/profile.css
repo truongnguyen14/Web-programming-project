@@ -1,54 +1,154 @@
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, san-serif;
+	background-color:white;
+	min-height: 100vh;
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* heading h*/
+a h1{
+	font-weight: 800;
+	font-size: 2rem;
+	color: white;
+	margin-left: 105px;
+}
+.ps-heading h2{
+	font-weight: 800;
+	font-size: 1.8rem;
+	padding-left: 18px;
+}
+.ps-heading font{
+	color: rgb(255,51,153);
+}
+.form-heading h1{
+	text-align: center;
+	font-weight: 800;
+	font-size: 1.8rem;
+	padding-left: 18px;
+}
+.fee-heading h1{
+	font-weight: 800;
+	font-size: 1.8rem;
+	padding-left: 18px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	border: 1px solid rgb(255,51,153);
+	background-color: rgb(255,51,153);
+}
+.logo img{
+	height: 80px;
+	display: flex;
+}
+nav .navi{
+	display: flex;
+}
+nav .navi li a{
+	height: 40px;
+	line-height: 43px;
+	margin: 0px;
+	padding: 0px 18px;
+	display: flex;
+	font-size: 1rem;
+	font-weight: 550;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1.5px;
+}
+/* Footer nav*/
+.footer{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+footer .nav-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+	border: 1px solid rgb(255,51,153);
+	background-color: rgb(255,51,153);
+}
+nav .list-footer{
+	display:flex;
+}
+nav .list-footer li a{
+	height: 40px;
+	line-height: 43px;
+	margin: 0px;
+	padding: 0px 18px;
+	display: flex;
+	font-size: 1rem;
+	font-weight: 550;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1.5px;
+}
+.mycart{
+	cursor: pointer;
+	width: 100px;
+	height: 45px;
+	position: fixed;
+	top: 115px;
+	left: 89%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2px;
+	background-color: rgb(255,51,153);
+	border: 1 solid rgb(255,51,153)
+}
+.cartword{
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+/* hover*/
+
+.navi li a:hover{
+	color: rgb(255,51,153);
+	background-color: #ffffff;
+}
+.footer li a:hover{
+	color: rgb(255,51,153);
+	background-color: #ffffff;
+}
+
+nav input[type="checkbox"] {
+        display: none;
+      }
+nav label {
+        display: none;
+      }
+
+/*User's Profile*/
 
 *{
     margin: 0;
 }
 
-body {
-    background: #ffffff;
-    overflow: hidden;
-}
-
-.top-nav {
-    background-color: rgb(255,51,153);
-    color: #333;
-    box-shadow: 0px 4px 8px 0px grey;
-    height: 70px;
-}
-
-.title {
-    color: white;
-    font-family: "Dancing Script", cursive;
-    padding-top: 15px;
-    position: absolute;
-    left: 45%;
-}
-
-.top-nav ul {
-    float: right;
-    margin: 0 10px;
-    overflow: hidden;
-    padding: 18px 50px 0 40px;
-    list-style-type: none;
-}
-
-.top-nav li {
-    float: left;
-}
-
-.top-nav ul li a {
-    color: #333;
-    padding: 14px 18px;
-    text-align: center;
-    text-decoration: none;
-}
 .side-nav {
     background-color: rgb(255,51,153);
     color: rgb(255, 255, 255);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 250px;
-    height: 86%;
+    height: 80%;
     top: 75px;
     position: absolute;
     left: 0;
@@ -69,10 +169,6 @@ body {
     text-align: center;
 }
 
-.title2 {
-    font-size: 40px;
-    font-family: "Dancing Script", cursive;
-}
 
 .name {
     font-family: cursive;
@@ -128,11 +224,11 @@ body {
     color: #333;
     font-family:  cursive;
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .main-profile .box {
-    background-color: rgb(243, 233, 233);
+    background-color: #fff;
     border-radius: 18px;
     box-shadow: 1px 1px 8px 0 grey;
     height: auto;
@@ -141,16 +237,64 @@ body {
 }
 
 .main-profile .box table {
-    font-family: cursive;
     border: none;
-    font: 16px;
+	font-family: cursive;
+    font-size: 20px;
     height: 270px;
     width: 80%;
-    font-size: 22px;
 }
 
 .edit {
     position: absolute;
-    color: #e7e7e8;
+    color: darkgrey;
     right: 14%;
+}
+
+
+/*Dropdown 'Browse'*/
+.dropbtn {
+	background-color: rgb(255,51,153);
+	height: 40px;
+	line-height: 43px;
+	margin: 0px;
+	padding: 0px 18px;
+	display: flex;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 550;
+	color: white;
+	letter-spacing: 1.5px;
+	border: none;
+	cursor: pointer;
+}
+
+.browse-store {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: rgb(255,51,153);
+	min-width: 350px;
+	box-shadow: 0px 10px 20px 0px darkgrey;
+	z-index: 1;
+  }
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+  
+.dropdown-content a:hover {background-color: rgb(255, 78, 166) }
+  
+.browse-store:hover .dropdown-content {
+	display: block;
+}
+  
+.dropdown:hover .dropbtn {
+	background-color: lightpink;
 }
