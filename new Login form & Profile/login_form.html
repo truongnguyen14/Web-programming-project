@@ -24,6 +24,8 @@
             <a class="box1" href="#">Forgot your password?</a>
             <a class="box2" href="#"><b>CREATE AN ACCOUNT</b></a>
             </div>
-            <script src="login_form.js"></script>
+            <script>
+                document.getElementById('emails').innerHTML = localStorage.getItem('Email');
+            </script>
         </body>
     </html>
