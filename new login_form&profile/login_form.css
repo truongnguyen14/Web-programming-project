@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: "Ubuntu",sans-serif;
+}
+
+body {
+  background: url(shopping.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+    text-align: center;
+    margin: 40px;
+    font-size: 36px;
+    color:black;;
+}
+
+.container {
+    width: 360px;
+    height:  400px;
+    background-color:  #F1F1F1;
+    padding: 80px 40px;
+}
+
+
+.ibox {
+    width: 250px;
+    height:  40px;
+    background: #f1f1f1b3;
+    border-radius: 10px;
+    margin: 10px  auto;
+}
+
+.ibox input {
+    border: 1px solid silver;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    width:  250px;
+    line-height: 37px;
+    font-family: cursive;
+    font-size: 15px;
+    color: #333;
+}
+
+.btn {
+    width:  260px;
+    height: 40px;
+    background: rgb(255,51,153);
+    border-radius: 10px;
+    margin: 14px auto;
+    display: block;
+    font-size: 21px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.box1 {
+    display:  block;
+    width: 260px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+    transition: 0.5s all;
+}
+
+.box2 {
+    display:  block;
+    width: 260px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: darkblue;
+    text-align: center;
+    margin: auto;
+    transition: 0.5s all;
+}
+a:hover {
+    background: #00000040 ;
+}
+
+
+/* Error messages*/
+
+.login_form #error_password,
+.login_form #error_email {
+    margin: auto;
+    width: 200px;
+    font-size: 15px;
+    color: #C62828;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}
+
+
+
+
