@@ -1,0 +1,108 @@
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.coupons{
+    margin-top: 50px;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title{
+    width: 45%;
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.price{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle{
+    width: 30%;
+}
+
+.basketTotal{
+    width: 10%;
+}
+/*cookies*/
+.cookie {
+	position: fixed;
+    background-color: grey;
+    height: 30px;
+    font-size: 1rem;
+	color: white;
+    line-height: 26px;
+    display: inline-block;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+	padding: 8px 10px;
+}
+.cookie.active {
+  bottom: 0;
+}
+
+.cookie a {
+    color: white;
+    text-decoration: none;
+}
+
+.cookiebtn {
+    background-color: rgb(255,51,153);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+.cookiebtn:hover {
+    color: rgb(255,51,153);
+	background-color: #ffffff;
+	border: 2px solid rgb(255,51,153);
+}
+.cookie a:hover {
+	color: rgb(255,51,153);
+	}

@@ -1,0 +1,100 @@
+/* Style all input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+button {
+  background-color: #04AA6D;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+button:disabled {
+    background-color: #b1c7bf;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  margin-left: 300px;
+}
+
+.container form div input[type=radio]{
+  display: inline-block;
+  width: fit-content;
+}
+/*cookies*/
+.cookie {
+	position: fixed;
+    background-color: grey;
+    height: 30px;
+    font-size: 1rem;
+	color: white;
+    line-height: 26px;
+    display: inline-block;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+	padding: 8px 10px;
+}
+.cookie.active {
+  bottom: 0;
+}
+
+.cookie a {
+    color: white;
+    text-decoration: none;
+}
+
+.cookiebtn {
+    background-color: rgb(255,51,153);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+.cookiebtn:hover {
+    color: rgb(255,51,153);
+	background-color: #ffffff;
+	border: 2px solid rgb(255,51,153);
+}
+.cookie a:hover {
+	color: rgb(255,51,153);
+	}
